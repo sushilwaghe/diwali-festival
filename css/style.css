@@ -1,0 +1,182 @@
+    .img-diwali{
+        
+        height: 500px;
+        
+    }
+    .position-navbar{
+        position: sticky;
+        top: 0;
+    }
+    .m-top{
+        margin-top: 35px;
+    }
+    .intro{
+        margin-top: 50px;
+        height: 1000px;
+        
+        background-color: #ffffff;
+        background-image:url('https://wallpaperaccess.com/full/1583593.jpg');
+
+    }
+    .img-slide{
+        height: 500px;
+    }
+    .slides{
+        margin-top: 20px;
+    }
+    .heading{
+        font-size: 80px;
+        color: #140e0a;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Quintessential', cursive;
+        font-family: 'Supermercado One', cursive ;
+        text-align: center;
+        text-shadow: 0 0 20px rgb(126, 69, 31);
+        padding-top: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    }
+    .introduction{
+        font-size: 50px;
+        color: rgb(51, 22, 14);
+        text-align: center;
+    font-style: italic;
+        padding-bottom: 30px;
+
+    font-family: 'Bree Serif', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Supermercado One', cursive;
+    }
+    
+
+
+
+    .card1{
+        width: 500px;
+        height: 600PX;
+        border-radius: 20px;
+        box-shadow: 0px 0px 40px #808080;
+
+        background: transparent;
+        margin-top: 300px;
+        margin-left: 30px;
+        transition: 0.4s;
+        font-weight: bold;
+        
+    
+    }
+    .card1:hover{
+        width: 500px;
+        height: 600PX;
+        border-radius: 20px;
+        box-shadow: 0px 0px 80px #d1cdcd;
+
+        background: transparent;
+        margin-top: 300px;
+        margin-left: 30px;
+        transition: 0.4s;
+        margin-bottom: 20px;
+    
+    }
+    .card2{
+        width: 500px;
+        height: 600PX;
+        border-radius: 20px;
+        box-shadow: 0px 0px 40px #808080;
+
+        background: transparent;
+        margin-top: 300px;
+        margin-right: 30px;
+        transition: 0.4s;
+        margin-bottom: 20px;
+    }
+    .card2:hover{
+        width: 500px;
+        height: 600PX;
+        border-radius: 20px;
+        box-shadow: 0px 0px 80px  #d1cdcd;
+        background: transparent;
+        margin-top: 300px;
+        margin-right: 30px;
+        transition: 0.4s;
+        margin-bottom: 20px;
+    } 
+        .card-img {
+            margin-top: 2px;
+            width: 180px;
+            height: 180px;
+            margin-left: 100px;
+            margin-right: 50px;
+            border: 5px black dashed;
+        }
+        .card-title {
+            text-align: center;
+        }
+        
+        .a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    .font{
+        font-size: 80px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        color: #140e0a;
+
+    }
+    .int{
+        font-size: 40px;
+        color:goldenrod;
+        text-shadow: 0px 0px 5px black;
+        font-family: 'Bree Serif', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Vidaloka', serif;
+    padding-top: 56px;
+    padding-left:20px;
+    }
+    .marq{
+        font-size: 100px;
+        border: #140e0a;
+        color: white;
+        text-shadow: 10px 10px 50px whitesmoke;
+        margin-top: 30px;
+        background-color: black;
+        font-weight: bold;
+            
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Black Han Sans', sans-serif;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Nanum Myeongjo', serif;
+        font-family: 'Quintessential', cursive;
+        font-family: 'Supermercado One', cursive;
+        font-family: 'Vidaloka', serif;
+        
+    }
+    .offer{
+        height: 300px;
+        width: 500px;
+        
+        margin-top: 50px;
+        background: transparent;
+        border-radius: 10px;
+    }
+    .center{
+        text-align: center;
+        padding-left: 100px;
+    }
+
+    .video {
+        text-align: center;
+        box-shadow: 10px 10px 60px black;
+        
+    }
+    @media(min-width:576px){
+        .footer-containt{
+        width: 80%;
+        display: block;
+        }
+
+    } 
