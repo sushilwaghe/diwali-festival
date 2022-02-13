@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Diwali Sweets</title>
+    <!--External CSS File-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/e872ba44e8.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+    <!-- Just an image -->
+    <nav class="navbar navbar-light  navbar-expand-lg " style="background-color: #e3f2fd;">
+
+        <a class="navbar-brand" href="#">
+            <img src="./assets/logo/Rtc.png" width="60" height="60" alt="logo" class="logo">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">Diwali Sweets</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Sweet">Sweets <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dryfruits"><span class="sr-only">(current)</span>Dry Fruits</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </nav>
+
+    <h1 class="text-center display-4 heading">Diwali Sweets</h1>
+    <marquee behavior="" direction="" class="bg-marquee "> ||<b> Delivering PAN India & Free Shipping across India on Orders above ₹500/- </b>|| Estimated Standard Delivery Timeline of 5-7 Working Days, Though Delivery Time May Vary Depending On Pin Code || <b> CAUTION - Beware of Fraud!! </b> We do not accept
+        / encourage online payments with respect to super stockist / distributorship / franchisee / employment. ||
+    </marquee>
+
+    <div class=" container-header ">
+        <h1 class="title-2">Diwali Special</h1>
+        <div class="row row-cols-1 row-cols-md-3 " id="Sweet">
+            <!-- Kaju Katli -->
+            <div class="col mb-4">
+
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif;"> KAJU KATLI</h2>
+
+                    <img src="./assets/image/kajukatli.jpg " class="img-1 img-fluid ">
+
+                    <p class="description">So Sweet. So Good. </p>
+
+                    <del>₹ 1200/KG</del><b>₹ 850/KG</b>
+
+                    <h4 class="text-center">
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('KajuKatli')"></i></button> <br>
+                        <span id="qnt-kt">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('KajuKatli')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class=" btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+            </div>
+            <!-- Laddu -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> LADDU</h2>
+
+                    <img src="./assets/image/laddu.jpg " class="img-1 img-fluid ">
+
+                    <p class="description">It will be sweeter !</p>
+
+                    <del>₹ 350/KG</del><b>₹ 230/KG</b>
+
+                    <h4 class="text-center ">
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Laddo')"></i></button> <br>
+                        <span id="qnt-ld">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Laddo')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class=" btn btn-danger w-100 display:d-block btn-item"> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+            </div>
+            <!-- RAS-GULLA -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+
+                    <h2 style="font-family: 'Cinzel', serif; "> RAS-GULLA </h2>
+
+                    <img src="./assets/image/rasgulla.jpg " class="img-1 img-fluid  ">
+
+                    <p class="description">Keep making positive efforts. </p>
+
+                    <del>₹ 400/KG</del><b>₹ 220/KG</b>
+
+                    <h4 class="text-center ">
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Rass')"></i></button> <br>
+                        <span id="qnt-rg">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Rass')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item"> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+            <!-- CHIVDA -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> CHIVDA</h2>
+
+                    <img src="./assets/image/chivda.jpg " class="img-1 img-fluid ">
+
+                    <p class="description"> Crispy, glazed, crunchy, sweet!</p>
+
+                    <del>₹ 450/KG</del><b> ₹ 230/KG</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Chiv')"></i></button> <br>
+                        <span id="qnt-cd">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Chiv')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+
+            <!-- CHAKLI -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> CHAKLI</h2>
+
+                    <img src="./assets/image/chakli.jpg " class="img-1 img-fluid ">
+
+                    <p class="description"> Crispy, glazed, crunchy, sweet!</p>
+
+                    <del>₹ 380/KG</del><b> ₹ 210/KG</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Chak')"></i></button> <br>
+                        <span id="qnt-ck">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Chak')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+            <!-- Shankar-pale -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> SHANKAR-PALE</h2>
+
+                    <img src="./assets/image/Shankar-Pale.jpg " class="img-1 img-fluid ">
+
+                    <p class="description"> Sweet and Salty!</p>
+
+                    <del>₹ 250/KG</del><b> ₹ 120/KG</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Shankarpale')"></i></button> <br>
+                        <span id="qnt-sp">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Shankarpale')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+            <!-- Gulab Jamun -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> GULAB JAMUN</h2>
+
+                    <img src="./assets/image/gulabjamun.jpg " class="img-2 img-fluid ">
+
+                    <p class="description"> So Soft & soo Sweet !</p>
+
+                    <del>₹ 900/KG</del><b> ₹ 620/KG</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Gulab-Jamun')"></i></button> <br>
+                        <span id="qnt-gj">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Gulab-Jamun')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+            <!-- BALUSHAI-->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> BALU-SHAI </h2>
+
+                    <img src="./assets/image/balushai.jpg " class="img-1 img-fluid ">
+
+                    <p class="description"> Crispy, glazed, crunchy, sweet!</p>
+
+                    <del>₹ 350/KG</del><b> ₹ 180/KG</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Balu')"></i></button> <br>
+                        <span id="qnt-bs">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Balu')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Ras-Malai-->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> Ras Malai</h2>
+
+                    <img src="./assets/image/rasmalai.jpg " class="img-1 img-fluid ">
+
+                    <p class="description"> Kesri Ras Malai.. </p>
+
+                    <del>₹ 640/KG</del><b> ₹ 450/KG</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Rasmalai')"></i></button> <br>
+                        <span id="qnt-rm">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Rasmalai')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <h1 class="title-2">Dry Fruits</h1>
+
+        <div class=" row row-cols-1 row-cols-md-3 " id="dryfruits">
+
+            <!-- Classic Relish-->
+            <div class="col mb-4">
+
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif;"> Classic Relish </h2>
+
+                    <img src="./assets/image/haldiram1.jpg " class="img-1 img-fluid ">
+
+                    <p class="description">Premium Gift-Box</p>
+
+
+                    <del style="color: red;"> ₹ 999 /-</del>
+                    <b style="color: green;"> ₹ 870/-</b>
+
+                    <h4 class="text-center">
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Dryfruit-one')"></i></button> <br>
+                        <span id="df-one">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Dryfruit-one')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class=" btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+            </div>
+
+            <!-- Fancy Dry Fruits Gift Box-2 -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; ">Fancy Fruits</h2>
+
+                    <img src="./assets/image/haldiram3.jpg" class="img-1 img-fluid ">
+
+                    <p class="description">Fancy Dry Fruits Gift Box !</p>
+
+                    <del style="color: red;"> ₹ 875/- </del><b style="color: green;"> ₹ 775/-</b>
+
+                    <h4 class="text-center ">
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Dryfruit-two')"></i></button> <br>
+                        <span id="df-two">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Dryfruit-two')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class=" btn btn-danger w-100 display:d-block btn-item"> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+            </div>
+
+            <!--  Imperial Relish - Dry Fruit Box -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+
+                    <h2 style="font-family: 'Cinzel', serif; "> Imperial Relish </h2>
+
+                    <img src="./assets/image/haldirammid.jpg " class="img-1 img-fluid  ">
+
+                    <p class="description">Imperial Relish Gift-Box</p>
+
+                    <del style="color: red;"> ₹ 965/- </del><b style="color: green;"> ₹ 715/- </b>
+
+                    <h4 class="text-center ">
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Dryfruit-three')"></i></button> <br>
+                        <span id="df-three">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Dryfruit-three')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item"> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Dry Fruit Tokani-->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> Fruit Tokani </h2>
+
+                    <img src="./assets/image/special.jpg " class="img-1 img-fluid ">
+
+                    <p class="description"> Valuable Pack</p>
+
+                    <del style="color: red;"> ₹ 1500/- </del><b style="color: green;"> ₹ 1250/-</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Dryfruit-four')"></i></button> <br>
+                        <span id="df-four">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Dryfruit-four')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+            <!-- Royal Relish-->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> Royal Relish </h2>
+
+                    <img src="./assets/image/haldiram4.jpg" class="img-1 img-fluid ">
+
+                    <p class="description"> Crispy, glazed, crunchy, sweet!</p>
+
+                    <del style="color: red;"> ₹ 1560/- </del><b style="color: green;"> ₹ 1390/- </b>
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Dryfruit-five')"></i></button> <br>
+                        <span id="df-five">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Dryfruit-five')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+            <!-- Regal Relish - Dry Fruit Box  -->
+            <div class="col mb-4 ">
+                <div class="sweets-product mt-3 ">
+                    <h2 style="font-family: 'Cinzel', serif; "> Regal Relish - Dry Fruit Box </h2>
+
+                    <img src="./assets/image/haldirambox.jpg " class="img-1 img-fluid ">
+
+                    <p class="description"> Regal Relish!</p>
+
+                    <del style="color: red;"> ₹ 1840/- </del><b style="color: green;"> ₹ 1525/-</b>
+
+                    <h4 class="text-center ">
+
+                        <button class="btn-item1"> <i class="fa-solid fa-plus" onclick="inckg('Dryfruit-six')"></i></button> <br>
+                        <span id="df-six">1</span> KG <br>
+                        <button class="btn-item2">  <i class="fa-solid fa-minus " onclick="deckg('Dryfruit-six')"></i></button>
+                    </h4>
+
+                    <br>
+
+                    <!-- <button class="btn btn-danger w-100 display:d-block btn-item "> Buy Now </button> -->
+                    <button class="temp w-100 bg-danger disply:d-block"> Buy Now </button>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    </div>
+    </div>
+
+
+    <!--External js file-->
+    <script src="./js/scripts.js "></script>
+
+
+</body>
+
+
+</html>
