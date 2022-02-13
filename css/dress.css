@@ -1,60 +1,119 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.card-row{
+
+body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #ffffff 50%, #B5FFFC 100%);
+    /* background-image: url('https://c0.wallpaperflare.com/preview/615/619/759/firework-city-building-high-rise.jpg');
+    background-repeat: repeat;
+    height: 100vh;
+    background-size: cover;*/
+}
+
+.sticky-element {
+    position: sticky;
+    top: 0;
+    background-color: #0A2B50;
+    color: silver;
+}
+
+.head {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 5px solid black;
+}
+
+.hh {
+    font-size: 65px;
+    color: rgb(56, 86, 185);
+    width: auto;
+    display: block;
+    margin: auto;
+    text-shadow: 0px 5px 5px #ffb3cc;
+    font-family: 'Redressed', cursive;
+}
+
+.h1 {
+    font-size: 50px;
+    color: rgb(56, 86, 185);
+    width: auto;
+    display: block;
+    margin: auto;
+    text-shadow: 0px 5px 5px #ffb3cc;
+}
+
+.h2 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: #ffb3cc;
+}
+
+.card-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.img-womens{
+
+.img-womens {
     /* width: 100%; */
     height: 250px;
     padding: 25px;
 }
-.anarkali{
+
+.anarkali {
     width: 200px;
-    
 }
-.img-salwar{
+
+.img-salwar {
     text-align: center;
 }
-.card-items{
+
+.card-items {
     border: 1px solid black;
     margin: 5px;
     border-radius: 10px;
     padding: 10px;
     height: 400px;
     width: 250px;
-    
 }
-.detail-box{
+
+.detail-box {
     padding-top: 20px;
 }
-.detail-box:hover{
+
+.detail-box:hover {
     padding-top: 0px;
     transition: 0.6s;
 }
-.card-heading{
+
+.card-heading {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.rupees{
+
+.rupees {
     color: rgb(9, 179, 9);
 }
-.del-ruppes{
+
+.del-ruppes {
     color: red;
 }
-.card-order{
+
+.card-order {
     display: flex;
     margin-top: 5px;
     justify-content: space-evenly;
 }
-.qnt{
+
+.qnt {
     margin-top: 13px;
 }
-.card-add{
+
+.card-add {
     padding: 6px;
     margin: 8px;
     border: none;
@@ -62,7 +121,8 @@
     border-radius: 5px;
     color: white;
 }
-.card-buy{
+
+.card-buy {
     padding: 6px;
     margin: 8px;
     border: none;
@@ -70,38 +130,44 @@
     border-radius: 5px;
     color: white;
 }
-footer{
+
+footer {
     margin-top: 30px;
     background-color: #0A2B50;
     color: silver;
 }
-.footer-containt{
+
+.footer-containt {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.heading-project{
+
+.heading-project {
     text-align: center;
     margin-top: 15px;
 }
-.description{
+
+.description {
     text-align: center;
 }
-.social-img{
+
+.social-img {
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     height: 50px;
     width: 30px;
     border-radius: 50%;
     padding: 5px;
     background-color: aliceblue;
-    
 }
-.social-images{
+
+.social-images {
     display: flex;
     height: 40px;
     width: 40px;
@@ -110,42 +176,46 @@ footer{
     border-radius: 50%;
     box-shadow: 0px 0px 10px black;
     transition: 0.03s;
-} 
-.social-images:hover{
+}
+
+.social-images:hover {
     transform: scale(1.07);
 }
-.footer-links{
+
+.footer-links {
     text-decoration: none;
 }
-.f-links{
+
+.f-links {
     text-decoration: none;
     display: block;
 }
-.footer-links{
-    margin: 15px;
-}
-.footer-pratik{
-    margin: 15px;
-}
-.footer-saurabh{
-    margin: 15px;
-}
-.footer-sakshi{
-    margin: 15px;
-}
-.footer-vaishnavi{
+
+.footer-links {
     margin: 15px;
 }
 
+.footer-pratik {
+    margin: 15px;
+}
 
+.footer-saurabh {
+    margin: 15px;
+}
 
+.footer-sakshi {
+    margin: 15px;
+}
 
+.footer-vaishnavi {
+    margin: 15px;
+}
 
 @media screen and (max-width: 576px) {
-    .card-items{
+    .card-items {
         width: 80%;
     }
-    .footer-containt{
+    .footer-containt {
         width: 80%;
         display: block;
     }
