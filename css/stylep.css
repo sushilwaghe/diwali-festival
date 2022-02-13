@@ -1,5 +1,5 @@
 body {
-    /*background-color: #FFDEE9;
+    background-color: #FFDEE9;
     background-image: linear-gradient(0deg, #FFDEE9 0%, #ffffff 50%, #B5FFFC 100%);
     /* background-image: url('https://c0.wallpaperflare.com/preview/615/619/759/firework-city-building-high-rise.jpg');
     background-repeat: repeat;
@@ -7,12 +7,29 @@ body {
     background-size: cover;*/
 }
 
-.h1 {
+.head {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 5px solid black;
+}
+
+.hh {
     font-size: 65px;
-    background-color: #80dfff;
+    color: rgb(56, 86, 185);
     width: auto;
     display: block;
     margin: auto;
+    text-shadow: 0px 5px 5px #ffb3cc;
+    font-family: 'Redressed', cursive;
+}
+
+.h1 {
+    font-size: 50px;
+    color: rgb(56, 86, 185);
+    width: auto;
+    display: block;
+    margin: auto;
+    text-shadow: 0px 5px 5px #ffb3cc;
 }
 
 .h2 {
@@ -35,9 +52,9 @@ body {
 .card {
     width: 400px;
     border-radius: 25px;
-    box-shadow: 0px 0px 10px #808080;
+    box-shadow: 0px 0px 10px rgb(96, 105, 10);
     /*border: 5px black solid;*/
-    box-shadow: 0px 0px 20px silver;
+    /*box-shadow: 0px 0px 20px silver;*/
 }
 
 .card:hover {
