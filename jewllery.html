@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-element">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dipawali Nirvartay Jewellery Section</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#A1">Jewelleries</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#A3">Billing-Section</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>jwellery & ornaments</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style(jwellery).css">
+
+</head>
+
+<body>
+    <br>
+    <h1 class="h1" style="text-align: center;">Welcome to jwellery and Ornaments of Dipawali Nirvartay</h1><br>
+    <h2 class="h2" style="text-align: center;"> Inspire your style It's a good time to sparkle &#10024</h2><br>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imges/diwali-slide1.jpg" class="d-block " id="imge-slides" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imges/diwali-slide2.jpg" class="d-block  " id="imge-slides" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imges/diwali-slide3.jpg" class="d-block  " id="imge-slides" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+
+    <br><br>
+    <!-- <h2 class="display-6">Sparkling Necklaces</h2>
+          <div class="card-group">
+            <div class="card">
+              <img src="./imges/necklace/neck1.webp" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Peora</h5>
+                <p class="card-text">Indian Ethnic Gold Plated RaniPadmavati Kundan Pearl Bridal Choker Earrings with Maang Tikka</p><br>
+                <h5 class="h5">₹3999/-</h5><del>₹5999/-</del>
+              <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;font-size: 20px;font-weight: bold;">Quantity</h6>
+                <button id="btn-inc1" class="btn-Qty1"onclick="inc1()">+ADD+</button>
+                <div  id="btn-Qty1" class="Qty">0</div>
+                <button id="btn-dec1" class="btn-Qty2"onclick="dec1()">-Remove-</button>
+              </div>
+            </div>
+            <div class="card"> -->
+    <!-- <img src="./imges/necklace/neck2.webp" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sukkhi</h5>
+                <p class="card-text">Adorable Gold Plated Pearl Choker Necklace Set</p><br>
+                <h5 class="h5">₹1999/-</h5><del>₹3999/-</del>
+              </div>
+              <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black; font-size: 20px;font-weight: bold;">Quantity</h6><br>
+                <button id="btn-inc2" class="btn-Qty1" onclick="inc2()">+ADD+</button>
+                <div id="btn-Qty2"class="Qty">0</div>
+               <button id="btn-dec2" class="btn-Qty2" onclick="dec2()">-Remove-</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./imges/necklace/neck3.webp" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">YouBella</h5>
+                <p class="card-text">Jewellery Sets for Women Gold Plated Pearl Studded Necklace Jewellery Set with Earrings for Girls/Women</p><br>
+                <h5 class="h5">₹1299/-</h5><del>₹1450/-</del>
+              </div>
+              <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color:  black">Quantity</h6><br>
+                <button id="btn-inc3" class="btn-Qty1" onclick="inc3()">+ADD+</button>
+                <div id="btn-Qty3"class="Qty">0</div>
+               <button id="btn-dec3" class="btn-Qty2" onclick="dec3()">-Remove-</button>
+              </div> -->
+    <!-- </div>
+            <div class="card">
+              <img src="./imges/necklace/neck4.webp" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sukkhi</h5>
+                <p class="card-text">Exclusive Gold Plated Wedding Jewellery Kundan Choker Necklace Set For Women (N73395)</p><br>
+                <h5 class="h5">₹999/-</h5><del>₹1999/-</del>
+              </div>
+              
+              <div class="card-footer">  
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc4" class="btn-Qty1"onclick="inc4()">+ADD+</button>
+                <div id="btn-Qty4"class="Qty">0</div>
+                <button id="btn-dec4" class="btn-Qty2" onclick="dec4()">-Remove-</button>
+              </div>
+            </div>
+          </div>-->
+
+
+    <h2 class="display-6">Elegant Earrings</h2>
+    <div class="card-group">
+        <div class="card">
+            <img src="./imges/earings/jwell-ear1.webp" class="card-img-top img-card" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Mart</h5>
+                <p class="card-text">Preyans From Jaipur Mart Jhumki Earrings for Women (Silver)(GSE247$P)</p><br>
+
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹6799-</span><br><del>₹8999/-</del></button>
+            </div>
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc5" class="btn-Qty1 btn btn" onclick="inc5()">+ADD+</button>
+                <div id="btn-Qty5" class="Qty">0</div>
+                <button id="btn-dec5" class="btn-Qty2 btn btn" onclick="dec5()">-Remove-</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./imges/earings/jwell-ear2.webp" class="card-img-top img-card" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ZAVERI PEARLS</h5>
+                <p class="card-text">
+                    Beautifully Enamelled Yellow Jhumki Earring For Women-ZPFK8805</p><br>
+
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹499/-</span><br><del>₹899/-</del></button>
+            </div>
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc6" class="btn-Qty1 btn btn" onclick="inc6()">+ADD+</button>
+                <div id="btn-Qty6" class="Qty">0</div>
+                <button id="btn-dec6" class="btn-Qty2 btn btn" onclick="dec6()">-Remove-</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./imges/earings/jwell-ear3.webp" class="card-img-top img-card" alt="..."><br><br><br>
+            <div class="card-body">
+                <h5 class="card-title">Shining Diva Fashion</h5>
+                <p class="card-text">
+                    Latest Stylish Earrings for Women and Girls</p><br><br>
+
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹999/-</span><br><del>₹1099/-</del></button>
+            </div>
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc7" class="btn-Qty1 btn btn" onclick="inc7()">+ADD+</button>
+                <div id="btn-Qty7" class="Qty">0</div>
+                <button id="btn-dec7" class="btn-Qty2 btn btn" onclick="dec7()">-Remove-</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./imges/earings/jwell-ear4.webp" class="card-img-top img-ear4 img-card" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">YouBella</h5>
+                <p class="card-text">Fashion Jewellery Gold Plated Pearl Stylish Fancy Party Wear</p><br>
+
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹899/-</span><br><del>₹2453/-</del></button>
+            </div>
+
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc8" class="btn-Qty1 btn btn" onclick="inc8()">+ADD+</button>
+                <div id="btn-Qty8" class="Qty">0</div>
+                <button id="btn-dec8" class="btn-Qty2 btn btn" onclick="dec8()">-Remove-</button>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <h2 class="display-6">Heavy Rings</h2>
+    <div class="card-group">
+        <div class="card">
+            <img src="./imges/rings/jwellring1.webp" class="card-img-top  img-ring1 img-card" alt="...">
+            <div class="card-body br1">
+                <h5 class="card-title">Jaipur Mart</h5>
+                <p class="card-text">Preyans From Jaipur Mart Jhumki Earrings for Women (Silver)(GSE247$P)</p>
+
+
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹2510/-</span><br><del>₹3999/-</del></button>
+            </div>
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;margin-top:23px ">Quantity</h6>
+                <button id="btn-inc9" class="btn-Qty1 btn btn" onclick="inc9()">+ADD+</button>
+                <div id="btn-Qty9" class="Qty">0</div>
+                <button id="btn-dec9" class="btn-Qty2 btn btn" onclick="dec9()">-Remove-</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./imges/rings/jwellring2.webp" class="card-img-top img-card" alt="..."><br><br><br>
+            <div class="card-body">
+                <h5 class="card-title">ZAVERI PEARLS</h5>
+                <p class="card-text">
+                    Beautifully Enamelled Yellow Jhumki Earring For Women-ZPFK8805</p><br>
+
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹2310/-</span><br><del>₹3999/-</del></button>
+            </div>
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc10" class="btn-Qty1 btn btn" onclick="inc10()">+ADD+</button>
+                <div id="btn-Qty10" class="Qty">0</div>
+                <button id="btn-dec10" class="btn-Qty2 btn btn" onclick="dec10()">-Remove-</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./imges/rings/jwellring3.webp" class="card-img-top img-card" alt="..."><br><br>
+            <div class="card-body ">
+                <h5 class="card-title">Shining Diva Fashion</h5>
+                <p class="card-text">
+                    Latest Stylish Earrings for Women and Girls</p><br>
+
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹1210/-</span><br><del>₹1566/-</del></button>
+            </div>
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc11" class="btn-Qty1 btn btn" onclick="inc11()">+ADD+</button>
+                <div id="btn-Qty11" class="Qty">0</div>
+                <button id="btn-dec11" class="btn-Qty2 btn btn" onclick="dec11()">-Remove-</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./imges/rings/jwellring4.webp" class="card-img-top img-ring4 img-card" alt="..."><br><br><br>
+            <div class="card-body">
+                <h5 class="card-title">YouBella</h5>
+                <p class="card-text">Fashion Jewellery Gold Plated Pearl Stylish Fancy Party Wear</p><br>
+                <button type="button" class="btn btn-warning btn-lg btnprice"><span class="h5">₹1610/-</span><br><del>₹2456/-</del></button>
+            </div>
+
+            <div class="card-footer">
+                <h6 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Quantity</h6><br>
+                <button id="btn-inc12" class="btn-Qty1 btn btn" onclick="inc12()">+ADD+</button>
+                <div id="btn-Qty12" class="Qty">0</div>
+                <button id="btn-dec12" class="btn-Qty2 btn btn" onclick="dec12()">-Remove-</button>
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <div class="bill "><br><br><br>
+
+
+
+        <button type="button" class="bill-btn" onClick="amount()"><i class="fa-solid fa-wallet"></i> Final Bill Amount <i class="fa-solid fa-wallet"></i></button><br>
+        <h3 class="text-center display-3" id="total">0</h3><br><br>
+
+
+
+    </div>
+
+    <br><br>
+    <br><br>
+    <h1 class="text-center display-2 "><u>THANK YOU FOR SHOPPING WITH US</u></h1>
+    <h1 class="text-center display-2 "><u>WE HOPE YOU WILL VISIT AGAIN</u> </h1>
+    <br><br>
+    <script src="./js/script(jwellery).js"></script>
+
+
+    <script src="https://kit.fontawesome.com/e872ba44e8.js " crossorigin="anonymous "></script>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <footer>
+        <div class="footer-containt">
+            <div class="footer-info">
+                <div class="footer-paragraph">
+                    <h4 class="heading-project">Dipavali Nirvartay</h4>
+                    <p class="description">Buy exciting gifts and get discounts on our very own website.<br> celebrate this diwali with your loved ones.
+                    </p>
+                </div>
+                <div class="social-img">
+                    <a href="https://www.linkedin.com/in/vaishnavitakwat" target="_blank" class="social-icon"><img src="./assets/icons/linkedin.png" alt="linkedin" class="social-images"></a>
+                    <a href="https://github.com/vaish13" target="_blank" class="social-icon"><img src="./assets/icons/github.png" alt="github" class="social-images"></a>
+                    <a href="mailto:vaishnavitakwat13@gmail.com" target="_blank" class="social-icon"><img src="./assets/icons/gmail.png" alt="gmail" class="social-images"></a>
+                    <a href="tel:+91-7498296105" target="_blank" class="social-icon"><img src="./assets/icons/call.png" alt="call" class="social-images"></a>
+                </div>
+
+            </div>
+
+            <div class="footer-containt">
+                <div class="footer-links">
+                    <h4 class="heading">LINKS</h4>
+                    <a class="f-links" href="#">Home</a>
+                    <a class="f-links" href="#">Dresses and Clothes</a>
+                    <a class="f-links" href="#">Jwellery and Ornaments</a>
+                    <a class="f-links" href="#">Sweets</a>
+                    <a class="f-links" href="#">Fire-Crackers</a>
+                </div>
+                <div class="footer-sushil">
+                    <h4 class="heading">SUSHIL</h4>
+                    <a class="f-links" href="#">Linkedin</a>
+                    <a class="f-links" href="#">Github</a>
+                    <a class="f-links" href="#">Gmail</a>
+                </div>
+                <div class="footer-pratik">
+                    <h4 class="heading">PRATIK</h4>
+                    <a class="f-links" href="#">Linkedin</a>
+                    <a class="f-links" href="#">Github</a>
+                    <a class="f-links" href="#">Gmail</a>
+                </div>
+                <div class="footer-saurabh">
+                    <h4 class="heading">SAURABH</h4>
+                    <a class="f-links" href="#">Linkedin</a>
+                    <a class="f-links" href="#">Github</a>
+                    <a class="f-links" href="#">Gmail</a>
+                </div>
+                <div class="footer-sakshi">
+                    <h4 class="heading">SAKSHI</h4>
+                    <a class="f-links" href="#">Linkedin</a>
+                    <a class="f-links" href="#">Github</a>
+                    <a class="f-links" href="#">Gmail</a>
+                </div>
+                <!-- <div class="footer-vaishnavi">
+                    <h4 class="heading">VAISHNAVI</h4>
+                    <a class="f-links" href="#">Linkedin</a>
+                    <a class="f-links" href="#">Github</a>
+                    <a class="f-links" href="#">Gmail</a>
+                </div> -->
+            </div>
+            <div class="footer-copyright">
+                <p>© Copyright: DipavaliNirvartay.com, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
