@@ -13,6 +13,13 @@ body {
     background-size: cover;*/
 }
 
+.sticky-element {
+    position: sticky;
+    top: 0;
+    background-color: #0A2B50;
+    color: silver;
+}
+
 .head {
     margin-left: 300px;
     margin-right: 300px;

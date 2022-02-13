@@ -42,6 +42,8 @@ body {
 .sticky-element {
     position: sticky;
     top: 0;
+    background-color: #0A2B50;
+    color: silver;
 }
 
 .heading {
