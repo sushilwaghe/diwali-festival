@@ -134,6 +134,8 @@ body {
     background-color: #f7b733;
     border-radius: 3px;
     color: white;
+    box-shadow: 0px 0px 4px;
+
 }
 .card-buy {
     padding: 6px;
@@ -142,6 +144,7 @@ body {
     background-color: #f7b733;
     border-radius: 5px;
     color: white;
+    box-shadow: 0px 0px 5px black;
 }
 
 footer {
