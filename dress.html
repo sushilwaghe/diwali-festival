@@ -1,21 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diwali Festiwal</title>
-        <!--External CSS File-->
+    <!--External CSS File-->
     <link rel="stylesheet" href="./css/dress.css">
-        <!--Bootstrap link-->
+    <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
-        <!-- <script src="https://kit.fontawesome.com/c6c601bcef.js" crossorigin="anonymous"></script> -->
+
+    <!-- <script src="https://kit.fontawesome.com/c6c601bcef.js" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
 </head>
 
-            
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-element">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dipawali Nirvartay Clothes Section</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#A1">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#A2">Dresses and Clothing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#A3">Billing-Section</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <br>
+    <div class="head">
+        <h1 class="hh" style="text-align: center;"> <i class="fa-solid fa-angel"></i> Dipawali Nirvartay <i class="fa-solid fa-angel"></i></h1><br>
+        <h1 class="h1" style="text-align: center;"> <i class="fa-solid fa-angel"></i> Welcomes you to Dresses Section <i class="fa-solid fa-angel"></i></h1>
+    </div>
+    <br>
+
+    <h2 class="h2" style="text-align: center;"><b><u>* * * * OFFERS * * * *</u></b></h2><br>
+
+    <div class="container-fluid">
+        <h2 class="card-heading">Dresses for Women</h2>
+        <div class="card-row">
+            <div class="card-items">
+                <div class="img-salwar"><img class="img-womens" src="./assets/img/women3.jpeg"></div>
+                <div class="detail-box">
+                    <h5>Man Kurta</h5>
+                    <div class="item-price">
+                        <span class="rupees">Rs.<span>550</span></span>
+                        <del class="del-ruppes">Rs.1000</del>
+                    </div>
+                    <div class="card-order">
+
+                        <h4 class="qnt"> <button onClick="dec()"> <i class="fa fa-minus"></i> </button> <span id="dress">0</span></h4>
+                        <button onClick="inc()"> <i class="fa fa-plus"> </i></button>
+=======
+                        <h4 class="qnt"> <button onClick="dec()" class="qnt-btn"> <i class="fa fa-minus"></i> </button> <span  id="dress">0</span>
+                        <button onClick="inc()" class="qnt-btn"> <i class="fa fa-plus"> </i></button></h4> 
+
+                        <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-items">
+                <div class="img-salwar"><img class="img-womens" src="./assets/img/women4.jpeg"></div>
+                <div class="detail-box">
+                    <h5>Man Kurta</h5>
+                    <div class="item-price">
+                        <span class="rupees">Rs.<span>600</span></span>
+                        <del class="del-ruppes">Rs.1000</del>
+                    </div>
+                    <div class="card-order">
+                        <h4 class="qnt"> <button onClick="dec1()" class="qnt-btn"> <i class="fa fa-minus"></i> </button> <span id="dress1">0</span>
+                        <button onClick="inc1()" class="qnt-btn"><i class="fa fa-plus"></i></button></h4>
+                        <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-items">
+                <div class="img-salwar"><img class="img-womens salwar" src="./assets/img/women5.jpeg"></div>
+                <div class="detail-box">
+                    <h5>Printed Salwar</h5>
+                    <div class="item-price">
+                        <span class="rupees">Rs.<span>700</span></span>
+                        <del class="del-ruppes">Rs.1000</del>
+                    </div>
+                    <div class="card-order">
+
+                        <h4 class="qnt"> <button onClick="dec2()"> <i class="fa fa-minus"></i> </button> <span id="dress2">0</span> </h4>
+                        <button onClick="inc2()"> <i class="fa fa-plus" ></i> </button>
+
+                        <h4 class="qnt"> <button onClick="dec2()" class="qnt-btn"> <i class="fa fa-minus"></i> </button> <span id="dress2">0</span> 
+                            <button onClick="inc2()" class="qnt-btn"> <i class="fa fa-plus" ></i> </button></h4> 
+
+                        <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-items">
+                <div class="img-salwar"><img class="img-womens" src="./assets/img/women6.png"></div>
+                <div class="detail-box">
+                    <h5>Printed Salwar</h5>
+                    <div class="item-price">
+                        <span class="rupees">Rs.<span>750</span></span>
+                        <del class="del-ruppes">Rs.1000</del>
+                    </div>
+                    <div class="card-order">
+                        <h4 class="qnt"> <button onClick="dec3()" class="qnt-btn"> <i class="fa fa-minus" ></i> </button> <span id="dress3">0</span>
+                        <button onClick="inc3()" class="qnt-btn"> <i class="fa fa-plus"></i> </button></h4>
+                        <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
     <div class="container-fluid">
         <h2 class="card-heading">Dresses for Man</h2>
@@ -25,12 +146,26 @@
                 <div class="detail-box">
                     <h5>Man Kurta</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>550</span></span> 
+                        <span class="rupees">Rs.<span>550</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><button class="dec"><i class="fa fa-minus"></i></button> <span  class="qnt-dress">0</span></h4> 
-                           <button class="inc"><i class="fa fa-plus"></i></button>
+
+
+
+                        <h4 class="qnt"><button class="dec"><i class="fa fa-minus"></i></button> <span class="qnt-dress">0</span></h4>
+                        <button class="inc"><i class="fa fa-plus"></i></button>
+
+                        <h4 class="qnt"> <button onClick="dec4()"> <i class="fa fa-minus"></i> </button> <span id="dress4">0</span></h4>
+=======
+                        <h4 class="qnt"> <button onClick="dec4()"> <i class="fa fa-minus"></i> </button> <span  id="dress4">0</span></h4> 
+
+                        <button onClick="inc4()"> <i class="fa fa-plus"> </i></button>
+=======
+                        <h4 class="qnt"> <button onClick="dec4()" class="qnt-btn"> <i class="fa fa-minus"></i> </button> <span  id="dress4">0</span> 
+                        <button onClick="inc4()" class="qnt-btn"> <i class="fa fa-plus"> </i></button></h4>
+
+
                         <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
@@ -41,12 +176,14 @@
                 <div class="detail-box">
                     <h5>Man Kurta</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>600</span></span> 
+                        <span class="rupees">Rs.<span>600</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><button class="dec" ><i class="fa fa-minus"></i></button> <span class="qnt-dress">0</span></h4>
-                        <button class="inc"><i class="fa fa-plus"></i></button>
+
+                        <h4 class="qnt"> <button onClick="dec5()" class="qnt-btn"> <i class="fa fa-minus"></i> </button> <span id="dress5">0</span>
+                        <button onClick="inc5()" class="qnt-btn"><i class="fa fa-plus"></i></button></h4>
+
                         <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
@@ -57,12 +194,18 @@
                 <div class="detail-box">
                     <h5>Printed Salwar</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>700</span></span> 
+                        <span class="rupees">Rs.<span>700</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><i class="fa fa-minus" onClick="dec()"></i> <span id="qnt-dress">0</span> <i class="fa fa-plus" onClick="inc()"></i></h4>
-                        <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
+
+                        <h4 class="qnt"> <button onClick="dec6()"> <i class="fa fa-minus"></i> </button> <span id="dress6">0</span> </h4>
+                        <button onClick="inc6()"> <i class="fa fa-plus" ></i> </button>
+=======
+                        <h4 class="qnt"> <button onClick="dec6()" class="qnt-btn"> <i class="fa fa-minus"></i> </button> <span id="dress6">0</span> 
+                            <button onClick="inc6()" class="qnt-btn"> <i class="fa fa-plus" ></i> </button></h4> 
+
+                       <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
 
@@ -72,11 +215,12 @@
                 <div class="detail-box">
                     <h5>Printed Salwar</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>750</span></span> 
+                        <span class="rupees">Rs.<span>750</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><i class="fa fa-minus" onClick="dec()"></i> <span id="qnt-dress">0</span> <i class="fa fa-plus" onClick="inc()"></i></h4>
+                        <h4 class="qnt"> <button onClick="dec7()" class="qnt-btn"> <i class="fa fa-minus" ></i> </button> <span id="dress7">0</span>
+                        <button onClick="inc7()" class="qnt-btn"> <i class="fa fa-plus"></i> </button></h4>
                         <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
@@ -93,11 +237,12 @@
                 <div class="detail-box">
                     <h5>Printed Salwar</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>650</span></span> 
+                        <span class="rupees">Rs.<span>650</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><i class="fa fa-minus" onClick="dec()"></i> <span id="qnt-dress">0</span> <i class="fa fa-plus" onClick="inc()"></i></h4>
+                        <h4 class="qnt"> <button onClick="dec8()" class="qnt-btn"> <i class="fa fa-minus" ></i> </button> <span id="dress8">0</span>
+                        <button onClick="inc8()" class="qnt-btn"> <i class="fa fa-plus" ></i> </button></h4>
                         <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
@@ -108,11 +253,12 @@
                 <div class="detail-box">
                     <h5>Printed Salwar</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>500</span></span> 
+                        <span class="rupees">Rs.<span>500</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><i class="fa fa-minus" onClick="dec()"></i> <span id="qnt-dress">0</span> <i class="fa fa-plus" onClick="inc()"></i></h4>
+                        <h4 class="qnt"> <button onClick="dec9()" class="qnt-btn"> <i class="fa fa-minus" ></i> </button> <span id="dress9">0</span>
+                        <button onClick="inc9()" class="qnt-btn"> <i class="fa fa-plus" ></i> </button></h4>
                         <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
@@ -123,12 +269,13 @@
                 <div class="detail-box">
                     <h5>Printed Salwar</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>400</span></span> 
+                        <span class="rupees">Rs.<span>400</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><i class="fa fa-minus" onClick="dec()"></i> <span id="qnt-dress">0</span> <i class="fa fa-plus" onClick="inc()"></i></h4>
-                        <button class="card-buy"><i class="fas fa-wallet"></i></i> BUY NOW</button>
+                        <h4 class="qnt"> <button onClick="dec10()" class="qnt-btn"> <i class="fa fa-minus" ></i> </button> <span id="dress10">0</span>
+                        <button onClick="inc10()" class="qnt-btn"> <i class="fa fa-plus" ></i> </button></h4>
+                        <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
 
@@ -138,11 +285,12 @@
                 <div class="detail-box">
                     <h5>Printed Salwar</h5>
                     <div class="item-price">
-                        <span class="rupees">Rs.<span>500</span></span> 
+                        <span class="rupees">Rs.<span>500</span></span>
                         <del class="del-ruppes">Rs.1000</del>
                     </div>
                     <div class="card-order">
-                        <h4 class="qnt"><i class="fa fa-minus" onClick="dec()"></i> <span id="qnt-dress">0</span> <i class="fa fa-plus" onClick="inc()"></i></h4>
+                        <h4 class="qnt"> <button onClick="dec11()" class="qnt-btn"> <i class="fa fa-minus" ></i> </button> <span id="dress11">0</span>
+                        <button onClick="inc11()" class="qnt-btn"> <i class="fa fa-plus" ></i> </button></h4>
                         <button class="card-buy"><i class="fas fa-wallet"></i> BUY NOW</button>
                     </div>
                 </div>
@@ -155,51 +303,50 @@
             <div class="footer-info">
                 <div class="footer-paragraph">
                     <h4 class="heading-project">Dipavali Nirvartay</h4>
-                    <p class="description">Buy exciting gifts and get discounts on our very own website.<br>
-                        celebrate this diwali with your loved ones.
+                    <p class="description">Buy exciting gifts and get discounts on our very own website.<br> celebrate this diwali with your loved ones.
                     </p>
-                </div>    
-                    <div class="social-img">
-                        <a href="https://www.linkedin.com/in/sushil-waghe/" target="_blank" class="social-icon"><img src="./assets/icons/linkedin.png" alt="linkedin"  class="social-images"></a>
-                        <a href="https://github.com/sushilwaghe" target="_blank" class="social-icon"><img src="./assets/icons/github.png" alt="github"  class="social-images"></a>
-                        <a href="mailto:sushilwaghe2169@gmail.com" target="_blank" class="social-icon"><img src="./assets/icons/gmail.png" alt="gmail"  class="social-images"></a>
-                        <a href="tel:+91-7385388186" target="_blank" class="social-icon"><img src="./assets/icons/call.png" alt="call"  class="social-images"></a>
-                    </div>
-                
+                </div>
+                <div class="social-img">
+                    <a href="https://www.linkedin.com/in/sushil-waghe/" target="_blank" class="social-icon"><img src="./assets/icons/linkedin.png" alt="linkedin" class="social-images"></a>
+                    <a href="https://github.com/sushilwaghe" target="_blank" class="social-icon"><img src="./assets/icons/github.png" alt="github" class="social-images"></a>
+                    <a href="mailto:sushilwaghe2169@gmail.com" target="_blank" class="social-icon"><img src="./assets/icons/gmail.png" alt="gmail" class="social-images"></a>
+                    <a href="tel:+91-7385388186" target="_blank" class="social-icon"><img src="./assets/icons/call.png" alt="call" class="social-images"></a>
+                </div>
+
             </div>
 
             <div class="footer-containt">
                 <div class="footer-links">
-                    <h4 class="heading">LINKS</h4>
-                    <a class="f-links" href="#">Home</a>
-                    <a class="f-links" href="#">Home</a>
-                    <a class="f-links" href="#">Home</a>
-                    <a class="f-links" href="#">Home</a>
-                    <a class="f-links" href="#">Home</a>
+                    <h4 class="heading">MENU</h4>
+                    <a class="f-links" href="index.html" target="_blank">Home</a>
+                    <a class="f-links" href="dress.html" target="_blank">Cloths</a>
+                    <a class="f-links" href="sweets.html" target="_blank">Sweets</a>
+                    <a class="f-links" href="firework.html" target="_blank">Crackers</a>
+                    <a class="f-links" href="jewllery.html" target="_blank">Jewellery</a>
                 </div>
                 <div class="footer-pratik">
                     <h4 class="heading">PRATIK</h4>
-                    <a class="f-links" href="https://www.linkedin.com/in/pratik-satdeve-3034a719b">Linkedin</a>
-                    <a class="f-links" href="https://github.com/Pratik28Satdeve">Github</a>
-                    <a class="f-links" href="mailto:patricksatdeve@gmail.com">Gmail</a>
+                    <a class="f-links" href="https://www.linkedin.com/in/pratik-satdeve-3034a719b" target="_blank">Linkedin</a>
+                    <a class="f-links" href="https://github.com/Pratik28Satdeve" target="_blank">Github</a>
+                    <a class="f-links" href="mailto:patricksatdeve@gmail.com" target="_blank">Gmail</a>
                 </div>
                 <div class="footer-saurabh">
                     <h4 class="heading">SAURABH</h4>
-                    <a class="f-links" href="www.linkedin.com/in/saurabh-bhat">Linkedin</a>
-                    <a class="f-links" href="https://github.com/saubhat10">Github</a>
-                    <a class="f-links" href="mailto:saurabhat10@gmail.com">Gmail</a>
+                    <a class="f-links" href="www.linkedin.com/in/saurabh-bhat" target="_blank">Linkedin</a>
+                    <a class="f-links" href="https://github.com/saubhat10" target="_blank">Github</a>
+                    <a class="f-links" href="mailto:saurabhat10@gmail.com" target="_blank">Gmail</a>
                 </div>
                 <div class="footer-sakshi">
                     <h4 class="heading">SAKSHI</h4>
-                    <a class="f-links" href="www.linkedin.com/in/sakshi-pal">Linkedin</a>
-                    <a class="f-links" href="https://github.com/sakshipal08">Github</a>
-                    <a class="f-links" href="mailto:pal89018@gmail.com">Gmail</a>
+                    <a class="f-links" href="www.linkedin.com/in/sakshi-pal" target="_blank">Linkedin</a>
+                    <a class="f-links" href="https://github.com/sakshipal08" target="_blank">Github</a>
+                    <a class="f-links" href="mailto:pal89018@gmail.com" target="_blank">Gmail</a>
                 </div>
                 <div class="footer-vaishnavi">
                     <h4 class="heading">VAISHNAVI</h4>
-                    <a class="f-links" href="https://www.linkedin.com/in/vaishnavitakwat">Linkedin</a>
-                    <a class="f-links" href="https://github.com/vaish13">Github</a>
-                    <a class="f-links" href="mailto:vaishnavitakwat13@gmail.com">Gmail</a>
+                    <a class="f-links" href="https://www.linkedin.com/in/vaishnavitakwat" target="_blank">Linkedin</a>
+                    <a class="f-links" href="https://github.com/vaish13" target="_blank">Github</a>
+                    <a class="f-links" href="mailto:vaishnavitakwat13@gmail.com" target="_blank">Gmail</a>
                 </div>
             </div>
             <div class="footer-copyright">
@@ -208,10 +355,11 @@
         </div>
     </footer>
 
-    
+
     <!--Bootstrap javascript link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!--External js file-->
     <script src="./js/dress.js"></script>
 </body>
+
 </html>

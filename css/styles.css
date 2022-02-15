@@ -1,4 +1,4 @@
-.heading {
+/* .heading {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -8,6 +8,47 @@
     color: yellowgreen;
     font-weight: 900;
     font-size: xx-large;
+} */
+
+body {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #ffffff 50%, #B5FFFC 100%);
+    /* background-image: url('https://c0.wallpaperflare.com/preview/615/619/759/firework-city-building-high-rise.jpg');
+    background-repeat: repeat;
+    height: 100vh;
+    background-size: cover;*/
+}
+
+.sticky-element {
+    position: sticky;
+    top: 0;
+    background-color: #0A2B50;
+    color: silver;
+}
+
+.head {
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 5px solid black;
+}
+
+.hh {
+    font-size: 65px;
+    color: rgb(56, 86, 185);
+    width: auto;
+    display: block;
+    margin: auto;
+    text-shadow: 0px 5px 5px #ffb3cc;
+    font-family: 'Redressed', cursive;
+}
+
+.h1 {
+    font-size: 50px;
+    color: rgb(56, 86, 185);
+    width: auto;
+    display: block;
+    margin: auto;
+    text-shadow: 0px 5px 5px #ffb3cc;
 }
 
 .container-header {
@@ -90,7 +131,8 @@
 }
 
 .bg-marquee {
-    background-color: #f0f022;
+    background-color: #ffb3cc;
+    font-size: 15px;
 }
 
 .emoji-all {
@@ -109,4 +151,99 @@
 .title-2 {
     text-align: center;
     margin: 70px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #0A2B50;
+    color: silver;
+}
+
+.footer-containt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.heading-project {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.description {
+    text-align: center;
+}
+
+.social-img {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.social-icons {
+    display: flex;
+    height: 50px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.social-images {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.03s;
+}
+
+.social-images:hover {
+    transform: scale(1.07);
+}
+
+.footer-links {
+    text-decoration: none;
+}
+
+.f-links {
+    text-decoration: none;
+    display: block;
+}
+
+.footer-links {
+    margin: 15px;
+}
+
+.footer-sushil {
+    margin: 15px;
+}
+
+.footer-pratik {
+    margin: 15px;
+}
+
+.footer-saurabh {
+    margin: 15px;
+}
+
+.footer-sakshi {
+    margin: 15px;
+}
+
+.footer-vaishnavi {
+    margin: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .footer-containt {
+        width: 80%;
+        display: block;
+    }
 }
